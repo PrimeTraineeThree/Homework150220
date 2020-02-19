@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class AreaRectangle {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); // you never used this 
         double width = 5.6;
         double height = 8.5;
         double area = width * height;
